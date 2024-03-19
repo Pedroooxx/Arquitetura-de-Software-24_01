@@ -1,4 +1,5 @@
 class Turma {
+
     constructor(codigo, nota) {
       this.codigo = codigo;
       this.nota = nota;
@@ -14,4 +15,4 @@ class Turma {
     }
   }
   
-  module.exports = Turma;
+  export default Turma;
