@@ -1,3 +1,10 @@
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send("teste");
+})
+
 const Funcionario = require('./funcionario');
 const Departamento = require('./departamento');
 
@@ -17,3 +24,7 @@ d3.adicionar(d2);
 
 const salarioTotal = d3.getSalario();
 console.log("Salário Final:", salarioTotal);
+
+app.listen(3300, (req, res) => {
+    console.log("Rodando...");
+})

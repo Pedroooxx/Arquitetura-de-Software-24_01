@@ -19,7 +19,7 @@ class Departamento extends Componente {
         }
     }
 
-    obterSalario() {
+    getSalario() {
         let salarioTotal = 0;
         for (const subDepartamento of this.subDepartamento) {
             salarioTotal += subDepartamento.getSalario();
