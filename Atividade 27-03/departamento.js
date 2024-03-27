@@ -1,3 +1,5 @@
+//Aluno: Pedro de Oliveira Machado - 2417855
+
 const Componente = require('./componente');
 
 class Departamento extends Componente {
